@@ -10,9 +10,6 @@ var randomImageSource2 = "images/" + randomDiceImage2; // images/dice1.png - ima
 var image1 = document.querySelectorAll("img")[0].setAttribute("src" , randomImageSource1);
 var image2 = document.querySelectorAll("img")[1].setAttribute("src" , randomImageSource2);
 
-// image1.setAttribute("src" , randomImageSource1);
-// image2.setAttribute("src" , randomImageSource2);
-
 if (randomNumber1 > randomNumber2) {
   document.querySelector("h1").innerHTML ="🚩Player 1 Wins";
 }
